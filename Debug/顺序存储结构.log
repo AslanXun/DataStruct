@@ -1,0 +1,37 @@
+﻿生成启动时间为 2022/3/22 15:33:43。
+     1>项目“F:\code\C++\数据结构学习\顺序存储结构\顺序存储结构\顺序存储结构.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\线性表.tlog\线性表.lastbuildstate”。
+     1>E:\vs2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(顺序存储结构.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+       InitializeBuildStatus:
+         正在对“Debug\线性表.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         E:\vs2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt LinkList.cpp Sqlist.cpp
+         LinkList.cpp
+     1>f:\code\c++\数据结构学习\顺序存储结构\顺序存储结构\linklist.cpp(15): warning C4326: “main”的返回类型应为“int”而非“void”
+         Sqlist.cpp
+         正在生成代码...
+       Link:
+         E:\vs2017\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"F:\code\C++\数据结构学习\顺序存储结构\Debug\线性表.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:\code\C++\数据结构学习\顺序存储结构\Debug\线性表.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\code\C++\数据结构学习\顺序存储结构\Debug\线性表.lib" /MACHINE:X86 Debug\LinkList.obj
+         Debug\Sqlist.obj
+         顺序存储结构.vcxproj -> F:\code\C++\数据结构学习\顺序存储结构\Debug\线性表.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\线性表.tlog\unsuccessfulbuild”。
+         正在对“Debug\线性表.tlog\线性表.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\code\C++\数据结构学习\顺序存储结构\顺序存储结构\顺序存储结构.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+       “F:\code\C++\数据结构学习\顺序存储结构\顺序存储结构\顺序存储结构.vcxproj”(Rebuild 目标) (1) ->
+       (PrepareForBuild 目标) -> 
+         E:\vs2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(顺序存储结构.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+
+
+       “F:\code\C++\数据结构学习\顺序存储结构\顺序存储结构\顺序存储结构.vcxproj”(Rebuild 目标) (1) ->
+       (ClCompile 目标) -> 
+         f:\code\c++\数据结构学习\顺序存储结构\顺序存储结构\linklist.cpp(15): warning C4326: “main”的返回类型应为“int”而非“void”
+
+    2 个警告
+    0 个错误
+
+已用时间 00:00:00.80
